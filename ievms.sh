@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# Prepare script env variables with my local settings
+IEVMS_VERSIONS="7 8 9 10"
+INSTALL_PATH=""
+
 # Caution is a virtue
 set -o nounset
 set -o errtrace
